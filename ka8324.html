@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body>
+
+<!-- A) -->
+<form action='./cgi-bin/ka8324.py' method='GET'>
+<p><h2>Enter a part name. Given  the  name  of  a  part, it will retrieve  the  information  about each supplier who supplied  it.</h2></p>
+<p>Please enter a part name</p>
+<input type='text' name='pname'><br>
+<input type='submit' value='Submit'>
+</form>
+
+<!-- B) -->
+<form action='./cgi-bin/ka8324.py' method='GET'>
+<p><h2> Enter a cost. Given the cost, it will retrieve the names of the suppliers who have ever supplied a part with that cost or higher. </h2></p>
+<p> Please enter a cost. </p>
+<input type = "text" name = "cost"><br>
+<input type = "submit" value = "Submit">
+</form>
+
+<!-- C) -->
+<form action='./cgi-bin/ka8324.py' method='GET'>
+<p><h2> Enter a part id. Given the pid, it will retrieve the names and addresses for the suppliers who charge the most for that part. </h2></p>
+<p> Please enter a part id. </p>
+<input type = "text" name = "pid"><br>
+<input type = "submit" value = "Submit">
+</form>
+
+<!-- D) -->
+<form action='./cgi-bin/ka8324.py' method='GET'>
+<p><h2> Enter an address. Given the address, it will retrieve the sids and names of the suppliers in that address who do not supply any part. </h2></p>
+<p> Please enter an address </p>
+<input type = "text" name = "addressE"><br>
+<input type = "submit" value = "Submit">
+</form>
+
+</body>
+</html>
+
